@@ -1,0 +1,77 @@
+.screen-reader-text { 
+   border:0;   
+   clip: rect(1px, 1px, 1px, 1px); 
+   clip-path: inset(50%);
+   height: 1px; 
+   margin: -1px;
+   width: 1px; 
+   overflow: hidden; 
+   position: absolute !important;
+   word-wrap:normal !important;
+}
+
+main h2 {
+	margin: 20px 20px;
+	border-bottom: 3px solid #4287f5;
+	font-family: helvetica, ariel, "sans serif";
+	font-weight: lighter;
+	font-size: 48pt;
+	color: #4287f5;
+}
+
+.group {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+input[type=text] {
+	padding: 20px 5px;
+	margin: 10px 0;
+	font-family: helvetica, ariel, "sans serif";
+	font-size: 14pt;
+}
+
+select{
+	padding: 10px 5px;
+	margin-top: 0;
+	margin-bottom: 20px;
+	font-family: helvetica, ariel, "sans serif";
+	font-size: 14pt;
+}
+
+p {
+	font-family: helvetica, ariel, "sans serif";
+	font-size: 14pt;
+}
+
+form label {
+	margin-bottom: 10px;
+	font-family: helvetica, ariel, "sans serif";
+	font-size: 14pt;
+}
+
+form input,
+form textarea {
+	width: 100%
+}
+
+form textarea {
+	height: 50px;
+}
+
+button {
+	border: none;
+	border-radius: 10px;
+	background-color: #4287f5;
+	color: white;
+	padding: 15px 50px;
+	margin-top: 10px;
+	font-family: helvetica, ariel, "sans serif";
+	font-size: 14pt;
+}
+
+button:hover {
+	background-color: #2F70D6
+}
